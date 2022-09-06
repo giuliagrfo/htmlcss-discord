@@ -205,7 +205,6 @@ h1{
     position: relative;
     text-align: center;
     color: white;
- 
 }
 
 .intro {
@@ -221,6 +220,10 @@ h1{
 .download {
     background-color: white;
     color: black;
+}
+
+.arrow {
+    vertical-align: middle;
 }
 
 .browser {
@@ -291,7 +294,6 @@ footer {
     background-color:#23272A;
 }
 .widget {
-    justify-content: center;
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
@@ -300,14 +302,63 @@ hr {
     margin-bottom: 2rem;
 }
 
+.social {
+    padding-left: 0;
+    padding-right: 2rem;
+}
+
+.ita {
+    vertical-align: middle;
+    width: 20px;
+}
+
+.language {
+    font-size: 10px;
+    color: white;
+    padding-bottom: 1rem;
+}
+
+.icons {
+    color: white;
+    padding-top: 0.8rem;
+}
+
+.ic_footer {
+    padding-right: 1rem;
+    vertical-align: middle;
+}
+
+h5 {
+    color: #7289DA;
+}
+
+ul {
+    font-size: 12px;
+    padding-top: 1rem;
+}
+
+li {
+    list-style: none;
+    padding: 0.2rem;
+    color: white;
+}
+
 /* footer_buttons */
 .key {
     justify-content: center;
 }
 
 .buttons {
-    padding: 1rem;
     justify-content: space-between;
 }
 
+h4 {
+    font-size: 20px;
+    color: #7289DA;
+    padding-bottom: 1rem;
+}
 
+.lg_footer {
+    width: 80px;
+
+}
