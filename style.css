@@ -296,10 +296,7 @@ footer {
 .widget {
     padding-top: 2rem;
     padding-bottom: 2rem;
-}
-
-hr {
-    margin-bottom: 2rem;
+    border-bottom: 1px solid #7289DA;
 }
 
 .social {
@@ -343,9 +340,12 @@ li {
     color: white;
 }
 
+
 /* footer_buttons */
 .key {
     justify-content: center;
+    padding-top: 1rem;
+    padding-bottom: 5rem;
 }
 
 .buttons {
@@ -361,4 +361,13 @@ h4 {
 .lg_footer {
     width: 80px;
 
+}
+
+.signin {
+    border: none;
+    background-color: #7289DA;
+    color: white;
+    font-size: 12px;
+    border-radius: 15px;
+    padding: 0.5rem 0.8rem;
 }
