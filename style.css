@@ -266,10 +266,30 @@ h2 {
     text-align: center;
 }
 
+ .stars{
+    padding: 2rem;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: -40px;
+ }
+
+ h3 {
+    font-size: 20px;
+ }
+
+ .dw_multimedia {
+    background-color: #7289DA ;
+    color: white;
+    margin-top: 3rem;
+ }
 
 /* footer_widget */
 
-
+footer {
+    background-color:#23272A;
+}
 .widget {
     justify-content: center;
     padding-top: 2rem;
