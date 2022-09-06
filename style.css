@@ -230,10 +230,14 @@ h1{
 
 /* main_blocks */
 .block {
-    padding: 2rem;
+    padding: 5rem;
 }
 
-.description {
+.grey {
+    background-color: #F6F6F6;
+}
+
+.rw_content {
     justify-content: center;
 }
 
@@ -250,15 +254,18 @@ h2 {
     font-size: 25px;
 }
 
-.cl_text > p {
+.cl_text > p, .multimedia_content > p {
     font-size: 16px;
     padding-top: 1rem;
 }
+
 /* main_multimedia */
 
 .multimedia {
     padding: 2rem;
+    text-align: center;
 }
+
 
 /* footer_widget */
 
