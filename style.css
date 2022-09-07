@@ -283,7 +283,7 @@ h2 {
     background-color: #7289DA ;
     color: white;
     margin-top: 3rem;
- }
+}
 
 /* footer_widget */
 
@@ -310,6 +310,12 @@ footer {
 .language {
     font-size: 10px;
     color: white;
+    padding-bottom: 1rem;
+}
+
+h4 {
+    font-size: 20px;
+    color: #7289DA;
     padding-bottom: 1rem;
 }
 
@@ -340,26 +346,19 @@ li {
 
 
 /* footer_buttons */
-.key {
-    justify-content: center;
-    padding-top: 1rem;
-    padding-bottom: 5rem;
-}
-
-.buttons {
-    justify-content: space-between;
-}
-
-h4 {
-    font-size: 20px;
-    color: #7289DA;
-    padding-bottom: 1rem;
-}
 
 .lg_footer {
     width: 80px;
-
 }
+
+
+.key {
+    padding-top: 1rem;
+    padding-bottom: 5rem;
+    justify-content: space-between;
+}
+
+
 
 .signin {
     border: none;
