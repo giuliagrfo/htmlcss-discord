@@ -149,7 +149,6 @@ img {
 /* header */
 header {
     padding: 1rem;
-    justify-content: space-around;
 }
 
 [class^="col"] {
@@ -175,7 +174,7 @@ a {
 .login {
     z-index: 1;
     padding-top: 1rem;
-
+    text-align: end;
 }
 
 .accedi {
@@ -197,7 +196,7 @@ a {
     top: -90px;
 }
 
-h1{
+section h1{
     font-size: 40px;
 }
 
@@ -238,6 +237,7 @@ h1{
 
 .grey {
     background-color: #F6F6F6;
+  
 }
 
 .rw_content {
@@ -250,12 +250,9 @@ h1{
 
 h2 {
     padding-top: 1rem;
+    font-size: 35px;
 }
 
-
-.cl_text{
-    font-size: 25px;
-}
 
 .cl_text > p, .multimedia_content > p {
     font-size: 16px;
@@ -278,7 +275,7 @@ h2 {
     bottom: -40px;
  }
 
- h3 {
+ section h3 {
     font-size: 20px;
  }
 
@@ -293,6 +290,7 @@ h2 {
 footer {
     background-color:#23272A;
 }
+
 .widget {
     padding-top: 2rem;
     padding-bottom: 2rem;
